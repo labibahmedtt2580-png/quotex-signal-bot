@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quotex Signal Bot</title>
+<style>
+body{margin:0;background:#0b1220;color:#fff;font-family:Arial,sans-serif;text-align:center;padding:24px 14px}.card{max-width:420px;margin:40px auto;background:#172235;padding:24px;border-radius:18px}h1{color:#4ade80}button{background:#16a34a;color:white;border:0;border-radius:9px;padding:13px 20px;font-size:16px}#signal{margin-top:22px;padding:16px;background:#0b1220;border-radius:10px;line-height:1.8}.note{color:#b7c3d5;font-size:13px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Quotex Signal Bot</h1>
+<p>Demo Signal Dashboard</p>
+<button onclick="showDemo()">Show Demo Signal</button>
+<div id="signal">Press the button to see a sample signal.</div>
+<p class="note">Demo only. Not live market data or financial advice.</p>
+</div>
+<script>
+function showDemo(){document.getElementById("signal").innerHTML="DEMO SIGNAL<br>Pair: EUR/USD<br>Direction: WAIT<br>Status: Sample only";}
+</script>
+</body>
+</html>
